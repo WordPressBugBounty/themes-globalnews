@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: GlobalNews is a sleek, high-performance WordPress theme designed for blog, magazine, and news publishers who want a striking dark theme. Offering full compatibility with major page builders like Elementor, Beaver Builder, Brizy, Visual Composer, Divi, and SiteOrigin, GlobalNews provides unmatched design flexibility. It’s fully responsive, SEO-optimized, and supports popular plugins such as WooCommerce, Jetpack, Contact Form 7, and Yoast SEO, allowing you to build a complete, dynamic site. With multilingual and RTL support—including demo content in languages like English, Chinese, Spanish, French, Japanese, and Arabic—GlobalNews is ideal for global publishers. The theme’s 1-click demo import feature and pre-built demos make setup quick and intuitive. Designed to be lightweight and fast-loading, it ensures optimal SEO and performance for increased engagement and reach. Perfect for blogs, magazines, and news sites, GlobalNews offers a professional, adaptable dark design with a wide array of layout and block patterns to showcase your content effectively. Explore demos and documentation at https://afthemes.com/products/globalnews/
 Template: morenews
-Version: 1.0.25
+Version: 1.0.26
 Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
@@ -449,9 +449,7 @@ article .mailchimp-block {
         padding-right: 10px;
     }
 
-    body .site-branding .site-title {
-        font-size: 2.75rem;
-    }
+    
 
     .widget:not(.morenews_social_contacts_widget) ul.menu>li,
     #sidr .morenews_express_posts_grid_widget .af-express-grid-wrap .read-single:first-child .read-title h3,
@@ -511,6 +509,11 @@ article .mailchimp-block {
 
     .main-navigation .menu .menu-mobile {
         width: 50%;
+    }
+
+    .header-layout-3 .site-header .site-branding .site-title,     
+    body .site-branding .site-title {
+        font-size: 2.75rem
     }
 }
 
