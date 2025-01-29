@@ -77,17 +77,16 @@ function globalnews_filter_default_theme_options($defaults)
     $defaults['show_primary_menu_desc']  = 0;
     $defaults['header_layout'] = 'header-layout-centered';
     $defaults['flash_news_title'] = __('Breaking News', 'globalnews');
-    $defaults['aft_custom_title']           = __('Watch Video', 'globalnews');   
-    $defaults['main_popular_news_section_title'] = __('Popular News', 'globalnews'); 
-    $defaults['main_latest_news_section_title'] = __('Latest News', 'globalnews'); 
+    $defaults['aft_custom_title']           = __('Watch Video', 'globalnews');      
     $defaults['secondary_color'] = '#ff0000';
+    $defaults['select_update_post_filterby'] = 'cat';   
     // $defaults['global_fetch_content_image_setting'] = 'enable';
     $defaults['global_show_min_read'] = 'no';
     $defaults['frontpage_content_type']  = 'frontpage-widgets-and-content';
     $defaults['featured_news_section_title'] = __('Featured News', 'globalnews');
     $defaults['show_featured_post_list_section'] = 1;
     $defaults['featured_post_list_section_title_1']           = __('General News', 'globalnews');
-    $defaults['featured_post_list_section_title_2']           = __('Central News', 'globalnews');
+    $defaults['featured_post_list_section_title_2']           = __('Global News', 'globalnews');
     $defaults['featured_post_list_section_title_3']           = __('More News', 'globalnews');
     
     return $defaults;
