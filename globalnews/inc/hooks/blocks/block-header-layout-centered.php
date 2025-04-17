@@ -109,3 +109,4 @@ $morenews_show_top_header_section = morenews_get_option('show_top_header_section
 
         </div>
     </div>
+    </div>
