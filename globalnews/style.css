@@ -5,9 +5,9 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: GlobalNews is a sleek, high-performance WordPress theme designed for blog, magazine, and news publishers who want a striking dark theme. Offering full compatibility with major page builders like Elementor, Beaver Builder, Brizy, Visual Composer, Divi, and SiteOrigin, GlobalNews provides unmatched design flexibility. It’s fully responsive, SEO-optimized, and supports popular plugins such as WooCommerce, Jetpack, Contact Form 7, and Yoast SEO, allowing you to build a complete, dynamic site. With multilingual and RTL support—including demo content in languages like English, Chinese, Spanish, French, Japanese, and Arabic—GlobalNews is ideal for global publishers. The theme’s 1-click demo import feature and pre-built demos make setup quick and intuitive. Designed to be lightweight and fast-loading, it ensures optimal SEO and performance for increased engagement and reach. Perfect for blogs, magazines, and news sites, GlobalNews offers a professional, adaptable dark design with a wide array of layout and block patterns to showcase your content effectively. Explore demos and documentation at https://afthemes.com/products/globalnews/
 Template: morenews
-Version: 1.0.48
-Requires at least: 4.0
-Requires PHP: 5.3
+Version: 1.1.0
+Requires at least: 6.0
+Requires PHP: 7.0
 Tested up to: 6.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -109,7 +109,7 @@ body.aft-dark-mode .main-navigation ul .sub-menu li {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.home-featured-widgets .morenews-widget:last-child {    
+.home-featured-widgets .morenews-widget:last-child {
     margin-bottom: 20px;
 }
 
@@ -210,7 +210,7 @@ textarea {
 }
 
 
-body .reply a, 
+body .reply a,
 div#respond input[type="submit"],
 .btn-style1 a:visited,
 .btn-style1 a,
@@ -239,12 +239,6 @@ p {
 
 }
 
-
-
-blockquote {
-    font-size: 1.4rem;
-}
-
 ul.trail-items li a {
     font-size: 16px;
     opacity: 1;
@@ -269,7 +263,7 @@ a.comment-reply-link {
 a.comment-reply-link,
 a.comment-reply-link:visited,
 a.comment-reply-link:hover,
-a.comment-reply-link:focus{
+a.comment-reply-link:focus {
     color: #ffffff;
 }
 
@@ -339,8 +333,8 @@ body.page div.comments-area {
 
 .wp-block-code code,
 .wp-block-code .editor-plain-text,
-body.aft-dark-mode #sidr, 
-body.aft-dark-mode code, 
+body.aft-dark-mode #sidr,
+body.aft-dark-mode code,
 body.aft-dark-mode {
     background-color: #1a1a1a;
 }
@@ -407,14 +401,15 @@ a.awpa-more-posts:hover {
     margin-bottom: 20px;
 }
 
-body .entry-content > ul a.wp-block-pages-list__item__link {
+body .entry-content>ul a.wp-block-pages-list__item__link {
     border: none;
 }
 
 article .promotionspace .morenews-customizer {
     margin-bottom: 0;
 }
-article .mailchimp-block {    
+
+article .mailchimp-block {
     margin-top: 20px;
 }
 
@@ -423,12 +418,12 @@ article .mailchimp-block {
     padding: 10px;
 }
 
-body.single-post .aft-image-caption {    
-    background: rgb(0 0 0 / 75%);   
+body.single-post .aft-image-caption {
+    background: rgb(0 0 0 / 75%);
 }
 
-.aft-image-caption p {    
-    opacity: 1; 
+.aft-image-caption p {
+    opacity: 1;
     font-size: 14px;
 }
 
@@ -445,7 +440,7 @@ body.single-post .aft-image-caption {
         padding-right: 10px;
     }
 
-    
+
 
     body.single-post .entry-title,
     body h1.page-title {
@@ -456,8 +451,8 @@ body.single-post .aft-image-caption {
         font-size: 1.2rem;
     }
 
-    .reply, 
-    .comment div#respond, 
+    .reply,
+    .comment div#respond,
     .comment-content,
     .comment .children {
         margin-left: 50px;
@@ -467,9 +462,9 @@ body.single-post .aft-image-caption {
         width: 30px;
     }
 
-    .comment .children .children .reply, 
-    .comment .children .children .comment-content, 
-    .comment .children .children .children .children{
+    .comment .children .children .reply,
+    .comment .children .children .comment-content,
+    .comment .children .children .children .children {
         margin-left: 0;
     }
 
@@ -492,7 +487,7 @@ body.single-post .aft-image-caption {
         width: 50%;
     }
 
-    .header-layout-3 .site-header .site-branding .site-title,     
+    .header-layout-3 .site-header .site-branding .site-title,
     body .site-branding .site-title {
         font-size: 2.75rem
     }
@@ -518,7 +513,7 @@ body.single-post .aft-image-caption {
     font-size: 16px;
 }
 
-.morenews-widget .wp-block-group .wp-block-heading{
+.morenews-widget .wp-block-group .wp-block-heading {
     font-size: 16px;
 }
 
@@ -531,7 +526,6 @@ pre.wp-block-verse {
 .wp-block-pullquote {
     padding: 20px;
 }
-
 
 body .post-navigation .em-post-navigation {
     opacity: 1;
@@ -552,6 +546,7 @@ div[id*="splw-location-weather"].splw-main-wrapper {
 }
 
 @media only screen and (max-width: 640px) {
+
     .af-main-banner-latest-posts .read-title h3,
     .af-main-banner-featured-posts .read-title h3 {
         font-size: 18px;
